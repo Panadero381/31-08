@@ -93,7 +93,7 @@ st.markdown("""
     }
 
     [data-testid="stMetricLabel"] {
-        color: #0b5e75;
+        color: #ffffff;
     }
 
     /* Botón consultar */
