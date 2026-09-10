@@ -125,11 +125,6 @@ st.markdown("""
         background-color: #ffffff !important;
     }
 
-    /* Selectbox */
-    div[data-baseweb="select"] {
-        background-color: #ffffff;
-    }
-
     div[data-baseweb="select"] * {
         color: #000000 !important;
     }
