@@ -65,6 +65,7 @@ st.markdown("""
     /* Tarjetas de información */
     .tarjeta {
         background-color: white;
+        color: #000000;
         padding: 18px;
         border-radius: 12px;
         border: 1px solid #d9e5eb;
