@@ -78,14 +78,13 @@ st.markdown("""
     }
 
     .tarjeta p {
-        color: #555555;
+        color: black;
         margin: 0;
     }
 
     /* Métricas */
     [data-testid="stMetric"] {
         background-color: white;
-        color: black;
         padding: 15px;
         border-radius: 12px;
         border: 1px solid #d9e5eb;
