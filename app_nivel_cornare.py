@@ -29,7 +29,7 @@ st.set_page_config(
 
 
 # ------------------------------------------------------------------
-# ESTILOS SENCILLOS
+# ESTILOS
 # ------------------------------------------------------------------
 
 st.markdown("""
@@ -38,31 +38,41 @@ st.markdown("""
     /* Fondo general */
     .stApp {
         background-color: #f4f8fb;
+        color: #000000;
     }
 
-    /* Título principal */
+    /* Todo el texto */
+    p, span, label, div {
+        color: #000000;
+    }
+
+    /* Títulos */
+    h1, h2, h3, h4, h5, h6 {
+        color: #000000;
+    }
+
+    /* Encabezado principal */
     .titulo-principal {
         background-color: #0b5e75;
         padding: 25px;
         border-radius: 15px;
         text-align: center;
-        color: white;
         margin-bottom: 20px;
     }
 
     .titulo-principal h1 {
-        color: white;
+        color: white !important;
         margin-bottom: 5px;
         font-size: 32px;
     }
 
     .titulo-principal p {
-        color: #d9f3fa;
+        color: white !important;
         font-size: 16px;
         margin: 0;
     }
 
-    /* Tarjetas de información */
+    /* Tarjetas */
     .tarjeta {
         background-color: white;
         padding: 18px;
@@ -73,12 +83,12 @@ st.markdown("""
     }
 
     .tarjeta h3 {
-        color: #0b5e75;
+        color: #0b5e75 !important;
         margin-bottom: 8px;
     }
 
     .tarjeta p {
-        color: black;
+        color: #000000 !important;
         margin: 0;
     }
 
@@ -92,10 +102,45 @@ st.markdown("""
     }
 
     [data-testid="stMetricLabel"] {
-        color: #0b5e75;
+        color: #000000 !important;
     }
 
-    /* Botón consultar */
+    [data-testid="stMetricValue"] {
+        color: #000000 !important;
+    }
+
+    /* Texto secundario */
+    .stCaption {
+        color: #000000 !important;
+    }
+
+    /* Sidebar */
+    section[data-testid="stSidebar"] {
+        background-color: #ffffff;
+    }
+
+    section[data-testid="stSidebar"] p,
+    section[data-testid="stSidebar"] label,
+    section[data-testid="stSidebar"] span {
+        color: #000000 !important;
+    }
+
+    /* Campos de texto */
+    input {
+        color: #000000 !important;
+        background-color: #ffffff !important;
+    }
+
+    /* Selectbox */
+    div[data-baseweb="select"] {
+        background-color: #ffffff;
+    }
+
+    div[data-baseweb="select"] * {
+        color: #000000 !important;
+    }
+
+    /* Botones */
     .stButton > button {
         width: 100%;
         border-radius: 10px;
@@ -103,15 +148,33 @@ st.markdown("""
         padding: 10px;
     }
 
-    /* Subtítulos */
-    h2, h3 {
-        color: #0b5e75;
+    /* Expander */
+    details {
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid #d9e5eb;
     }
 
-    /* Caja inferior */
+    details summary {
+        color: #000000 !important;
+    }
+
+    /* Texto dentro de expander */
+    details p,
+    details li,
+    details span {
+        color: #000000 !important;
+    }
+
+    /* Tablas */
+    [data-testid="stDataFrame"] {
+        background-color: white;
+    }
+
+    /* Pie de página */
     .pie {
         text-align: center;
-        color: #777777;
+        color: #000000 !important;
         font-size: 13px;
         padding: 20px;
         margin-top: 30px;
