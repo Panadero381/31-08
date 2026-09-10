@@ -41,7 +41,7 @@ st.markdown("""
     }
 
     /* Todo el texto */
-    p, span, label, div {
+    p {
         color: #000000;
     }
 
