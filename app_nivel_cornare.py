@@ -40,6 +40,11 @@ st.markdown("""
         color: #000000;
     }
 
+    /* Todo el texto */
+    p, span, label, div {
+        color: #000000;
+    }
+
     /* Títulos */
     h1, h2, h3, h4, h5, h6 {
         color: #000000;
