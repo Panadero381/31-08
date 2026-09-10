@@ -85,6 +85,7 @@ st.markdown("""
     /* Métricas */
     [data-testid="stMetric"] {
         background-color: white;
+        color: black;
         padding: 15px;
         border-radius: 12px;
         border: 1px solid #d9e5eb;
