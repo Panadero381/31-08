@@ -108,27 +108,6 @@ st.markdown("""
         color: #000000 !important;
     }
 
-    /* Sidebar */
-    section[data-testid="stSidebar"] {
-        background-color: #ffffff;
-    }
-
-    section[data-testid="stSidebar"] p,
-    section[data-testid="stSidebar"] label,
-    section[data-testid="stSidebar"] span {
-        color: #000000 !important;
-    }
-
-    /* Campos de texto */
-    input {
-        color: #000000 !important;
-        background-color: #ffffff !important;
-    }
-
-    div[data-baseweb="select"] * {
-        color: #000000 !important;
-    }
-
     /* Botones */
     .stButton > button {
         width: 100%;
