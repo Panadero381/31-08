@@ -85,7 +85,7 @@ st.markdown("""
     /* Métricas */
     [data-testid="stMetric"] {
         background-color: white;
-        color: #000000;
+        color: #000000 !important;
         padding: 15px;
         border-radius: 12px;
         border: 1px solid #d9e5eb;
@@ -93,7 +93,7 @@ st.markdown("""
     }
 
     [data-testid="stMetricLabel"] {
-        color: #000000;
+        color: #000000 !important;
     }
 
     /* Botón consultar */
