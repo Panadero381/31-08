@@ -41,7 +41,7 @@ st.markdown("""
         color: #000000;
     }
 
-    /* Todo el texto */
+    /* Texto general */
     p, span, label, div {
         color: #000000;
     }
@@ -109,11 +109,6 @@ st.markdown("""
         color: #000000 !important;
     }
 
-    /* Texto secundario */
-    .stCaption {
-        color: #000000 !important;
-    }
-
     /* Sidebar */
     section[data-testid="stSidebar"] {
         background-color: #ffffff;
@@ -129,6 +124,24 @@ st.markdown("""
     input {
         color: #000000 !important;
         background-color: #ffffff !important;
+        -webkit-text-fill-color: #000000 !important;
+    }
+
+    /* CAMPOS DE FECHA */
+    div[data-testid="stDateInput"] input {
+        color: #000000 !important;
+        background-color: #ffffff !important;
+        -webkit-text-fill-color: #000000 !important;
+    }
+
+    div[data-testid="stDateInput"] button {
+        color: #000000 !important;
+        background-color: #ffffff !important;
+    }
+
+    div[data-testid="stDateInput"] svg {
+        color: #000000 !important;
+        fill: #000000 !important;
     }
 
     /* Selectbox */
@@ -159,19 +172,12 @@ st.markdown("""
         color: #000000 !important;
     }
 
-    /* Texto dentro de expander */
-    details p,
-    details li,
-    details span {
-        color: #000000 !important;
-    }
-
     /* Tablas */
     [data-testid="stDataFrame"] {
         background-color: white;
     }
 
-    /* Pie de página */
+    /* Pie */
     .pie {
         text-align: center;
         color: #000000 !important;
